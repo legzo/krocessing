@@ -18,6 +18,8 @@ Build to share `uberJar` (then can run like):
 java -jar build/libs/processing-uber.jar
 ```
 
+![Example sketch from Kotlin/Processing](./geo.png)
+
 Add code for setup (NB remove noLoop() if you want to animate or do something interactive):
 
 ```kotlin
