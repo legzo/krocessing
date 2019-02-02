@@ -18,8 +18,6 @@ Build to share `uberJar` (then can run like):
 java -jar build/libs/processing-uber.jar
 ```
 
-![Example sketch from Kotlin/Processing](./geo.png)
-
 Add code for setup (NB remove noLoop() if you want to animate or do something interactive):
 
 ```kotlin
@@ -38,6 +36,10 @@ override fun draw() {
     background(0f,0f,100f)
 }
 ```
+
+You can soon do things like:
+
+![Example sketch from Kotlin/Processing](./geo.png)
 
 ## Bonus, some standard Kotlin extension for Processing
 
