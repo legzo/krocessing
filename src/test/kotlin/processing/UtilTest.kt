@@ -5,6 +5,7 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class UtilTest {
+
     @Test
     fun testPairs() {
         val pairs = listOf(1,2,3).pairwise

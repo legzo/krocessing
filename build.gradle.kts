@@ -1,6 +1,6 @@
 plugins {
     application
-    kotlin("jvm") version "1.3.10"
+    kotlin("jvm") version "1.3.61"
 }
 
 application {
@@ -19,7 +19,7 @@ repositories {
 }
 
 task<Jar>("uberJar") {
-    appendix = "uber"
+    archiveAppendix.set("uber")
 
     manifest {
         attributes(
